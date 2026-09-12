@@ -412,6 +412,7 @@ html {
 
 
 @media (max-width: 600px) {
+    
     .desktop-nav {
         display: none;
     }
@@ -419,7 +420,7 @@ html {
         display: block;
     }
 
-    .mobile-nav {
+    /* .mobile-nav {
         display: flex;
         position: fixed;
         top: 0;
@@ -433,7 +434,7 @@ html {
         gap: 25px;
         box-sizing: border-box;
         transition: right 0.3s ease;
-    }
+    } */
     .mobile-nav.active {
         right: 0;
     }
