@@ -420,7 +420,7 @@ html {
         display: block;
     }
 
-    /* .mobile-nav {
+    .mobile-nav {
         display: flex;
         position: fixed;
         top: 0;
@@ -430,11 +430,11 @@ html {
         background: white;
         z-index: 2000;
         flex-direction: column;
-        padding: 80px 30px;
+        padding: 100px 30px;
         gap: 25px;
         box-sizing: border-box;
         transition: right 0.3s ease;
-    } */
+    }
     .mobile-nav.active {
         right: 0;
     }
@@ -458,7 +458,7 @@ html {
         align-items: center;
         min-height: auto;
         height: auto;
-        padding: 80px 20px 60px;
+        padding: 100px 50px 60px;
     }
     .hero h1 {
         font-size: 42px;
@@ -486,7 +486,7 @@ html {
         justify-content: center;
     }
     .about {
-        padding: 70px 20px;
+        padding: 70px 50px;
     }
     .about-content {
         width: 100%;
@@ -525,7 +525,7 @@ html {
     }
 
     .skills {
-        padding: 60px 20px;
+        padding: 60px 50px;
         /* padding-bottom: 60px; */
         overflow: hidden;
     }
@@ -548,11 +548,11 @@ html {
     }
     .skill-card {
          /* padding: 28px 22px; */
-         width: 100%;
+         width: 90%;
          box-sizing: border-box;
     }
     .skill-card h3 {
-        font-size: 21px;
+        font-size: 19px;
         line-height: 1.3;
     }
     .skill-card p {
