@@ -4,9 +4,29 @@ const closeBtn = document.getElementById("closeBtn");
 
 const mobileNav = document.getElementById("mobileNav");
 
-menuBtn.addEventListener("click", function (){
+const mobileLinks = document.querySelectorAll(".mobile-nav a");
+
+menuBtn.addEventListener("click",()=> {
+
     mobileNav.classList.add("active");
 });
-closeBtn.addEventListener("click",function() {
+
+closeBtn.addEventListener("click",() => {
     mobileNav.classList.remove("active");
 });
+
+mobileLinks.forEach(link => {
+    link.addEventListener("click", () =>{
+        mobileNav.classList.remove("active");
+    });
+});
+
+
+
+
+// menuBtn.addEventListener("click", function (){
+//     mobileNav.classList.add("active");
+// });
+// closeBtn.addEventListener("click",function() {
+//     mobileNav.classList.remove("active");
+// });
